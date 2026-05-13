@@ -17,7 +17,11 @@ import java.util.Random;
 /**
  * @author 
  * Luis Javier Malvaez Ramos
+<<<<<<< HEAD
  * Luis jose
+=======
+ * jose
+>>>>>>> master
  */
 
 @WebServlet(
