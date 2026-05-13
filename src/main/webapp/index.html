@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>HMB - Cangreburgers</title>
+</head>
+
+<body>
+
+    <h1>Juego de las Cangreburgers</h1>
+
+    <p>
+        Calamardo se comió una cantidad desconocida de cangreburgers.
+        <br>
+        Sabemos que en el almacén había 100 hamburguesas.
+        <br><br>
+        ¿Puedes adivinar cuántas se comió?
+    </p>
+
+    <form action="hmb" method="get">
+
+        <label for="cb">
+            Número de hamburguesas:
+        </label>
+
+        <br><br>
+
+        <input 
+            type="number"
+            id="cb"
+            name="cb"
+            min="0"
+            max="100"
+            placeholder="Ejemplo: 25"
+            required
+        >
+
+        <br><br>
+
+        <input type="submit" value="Enviar">
+
+    </form>
+
+</body>
+
+</html>
